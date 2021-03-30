@@ -21,10 +21,10 @@ npx serve -s build //주소를 알려줌(네트워크 리로드)
 
 위에 행동에 의해 용량이 가벼워짐
 
-<header>
+><header>
             <h1>WEB</h1>
              world wide web!
- </header>
+> </header>
 
 
 
