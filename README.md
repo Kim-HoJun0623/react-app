@@ -21,10 +21,37 @@ npx serve -s build //주소를 알려줌(네트워크 리로드)
 
 위에 행동에 의해 용량이 가벼워짐
 
+HTML 작성
 ><header>
             <h1>WEB</h1>
              world wide web!
 > </header>
+
+App.js 작성
+class Subject extends Component{
+  render(){
+    return (
+      <header>
+        <h1>WEB</h1>
+         world wide web!
+      </header>
+    );
+  }  
+}
+
+
+class App extends Component {
+  render(){
+  
+  return (
+    <div className="App">
+      <Subject></Subject>//위에서 만든 클래스를 가져와서 사용!!
+    </div>
+   );
+  }
+}
+HTML 에 복잡도가 줄고 js파일을 사용하여 HTML 코드 이해도를 높인다
+
 
 
 
