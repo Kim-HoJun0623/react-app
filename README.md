@@ -1,4 +1,4 @@
-## 2021-03-30
+<!-- ## 2021-03-30
 
 <img src="/public/logo512.png" >
 
@@ -28,7 +28,7 @@ HTML 작성
 > </header>
 
 App.js 작성
-class Subject extends Component{
+>class Subject extends Component{
   render(){
     return (
       <header>
@@ -37,7 +37,7 @@ class Subject extends Component{
       </header>
     );
   }  
-}
+>}
 
 
 class App extends Component {
@@ -55,4 +55,4 @@ HTML 에 복잡도가 줄고 js파일을 사용하여 HTML 코드 이해도를 �
 
 
 
-
+ -->
